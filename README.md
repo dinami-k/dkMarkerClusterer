@@ -9,7 +9,7 @@ El archivo original de MarkerClusterer esta en:
 
 <h2>Funcionalidades</h2>
 <ul>
-  <li> Clic sobre un markerCluster</li>
+  <li> Click sobre un markerCluster</li>
   <li> Mouse over sobre un markerCluster</li>
   <li> Mouse out sobre un markerCluster</li>
   <li> Campo para almacenar "data" adicional.</li>
