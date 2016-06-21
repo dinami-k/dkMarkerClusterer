@@ -20,4 +20,12 @@ El archivo original de MarkerClusterer esta en:
 <h2>Uso</h2>
 Descargar el archivo dkMarkerCluster.js y las imagenes m1.png a m3.png y crear un archivo como se indica a continuación:
 
+``` 
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+``` 
 <hr/>
