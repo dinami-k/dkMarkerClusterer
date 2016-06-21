@@ -1,6 +1,6 @@
 # dkMarkerClusterer
 
-Esta es una versión de la libreria MarkerClusterer para manejar grandes cantidades de markers.
+Esta es una extensión de la versión de la libreria MarkerClusterer para manejar grandes cantidades de markers.
 
 <h2>Versión Original</h2>
 El archivo original de MarkerClusterer esta en:
