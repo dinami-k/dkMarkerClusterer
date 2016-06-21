@@ -70,3 +70,6 @@ Igualmente se puede configurar los eventos "click", "mouseover" y "mouseout"
 
 ``` 
 <hr/>
+
+<h3>Ejemplo</h3>
+Se pueden descargar los archivos de ejemplo para ver la funcionalidad completa en acción
