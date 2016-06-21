@@ -18,8 +18,9 @@ El archivo original de MarkerClusterer esta en:
 <hr/>
 
 <h2>Uso</h2>
-Descargar el archivo dkMarkerCluster.js y las imagenes m1.png a m3.png y crear un archivo como se indica a continuación:
+Descargar el archivo dkMarkerCluster.js y adicionarlo al html. Acto seguido se pueden setear los campos opcionales "data", "substractValue" y/o "hideZero" como se indica a continuación:
 
+Igualmente se puede configurar los eventos "click", "mouseover" y "mouseout"
 ``` 
 
 <!doctype html>
@@ -50,8 +51,22 @@ Descargar el archivo dkMarkerCluster.js y las imagenes m1.png a m3.png y crear u
 
 	...
 
-	
+	google.maps.event.addListener(markerCluster3, 'clusterclick', function(cluster) {
+		alert(cluster.data_);
+	});
 
+	google.maps.event.addListener(markerCluster, 'clustermouseover', function (cluster) {
+	    infowindow.setContent(cluster.data_);
+
+	    infowindow.setPosition(cluster.getCenter());
+	    infowindow.open(map);
+	});
+
+	google.maps.event.addListener(markerCluster, 'clustermouseout', function (cluster) {
+		infowindow.close();
+	});
+
+	...
 
 ``` 
 <hr/>
