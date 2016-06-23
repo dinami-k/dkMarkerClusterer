@@ -1,7 +1,7 @@
 /**
  * @name dkMarkerClusterer for Google Maps V3
  * @version 2.1.1 [21 Junio 2016]
- * @author Denny Rodríguez
+ * @author Denny RodrÃ­guez
  * @fileoverview
  * Esta libreria es una extension de la libreria MarkerClusterer para manejar grandes cantidades de markers.
  * <p>
@@ -1230,7 +1230,7 @@ ClusterIcon.prototype.onAdd = function () {
         isDragging = true;
     });
 
-    google.maps.event.addDomListener(this.div_, "mouseover", function () {
+    google.maps.event.addDomListener(this.div_, "mouseover", function (event) {
         that.triggerClusterMouseOver(event);
     });
 
